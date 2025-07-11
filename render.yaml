@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: uzbek-sentiment-analyzer
+    env: python
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "python app.py"
+    plan: free
