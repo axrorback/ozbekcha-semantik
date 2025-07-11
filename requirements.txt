@@ -1,0 +1,4 @@
+flask>=2.0
+transformers>=4.40.0
+torch>=2.0
+deep-translator>=1.11.4
